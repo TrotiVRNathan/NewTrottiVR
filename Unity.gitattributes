@@ -1,0 +1,35 @@
+# Configure end-of-line normalization
+* text=auto
+
+# Unity-specific attributes
+*.cs     diff=csharp
+*.shader diff=cpp
+*.cginc  diff=cpp
+
+# Treat binary files as binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.tga    binary
+*.psd    binary
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.mp4    binary
+*.fbx    binary
+*.anim   binary
+*.unity  binary
+*.prefab binary
+*.mat    binary
+
+# Ensure consistent behavior for known text files
+*.txt    text
+*.xml    text
+*.json   text
+*.yml    text
+*.yaml   text
+*.html   text
+*.css    text
+*.js     text
+*.md     text
