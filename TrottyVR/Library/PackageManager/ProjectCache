@@ -895,6 +895,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -911,6 +912,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -1064,6 +1066,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     compatible:
     - 1.7.6
     - 1.8.0
@@ -1073,6 +1076,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     recommended: 1.7.6
     deprecated: []
   dependencies:
@@ -4044,7 +4048,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: assets
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -4057,9 +4061,32 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
     - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
     compatible:
     - 2.3.0
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
     recommended: 2.3.0
     deprecated: []
   dependencies:
@@ -4092,7 +4119,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638411351550000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.3/manual/index.html
   hasRepository: 1
   repository:
@@ -4893,13 +4920,28 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -4920,7 +4962,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
