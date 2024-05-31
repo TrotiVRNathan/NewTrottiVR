@@ -39,6 +39,7 @@ public class SpawnZone : MonoBehaviour
         if (currentPiece != null)
         {
             Destroy(currentPiece);
+            GameManager.Instance.AddCoin(); // Mise à jour du compteur de pièces
             SpawnRandomPiece();
         }
     }

@@ -396,6 +396,7 @@
 "Assets/Script/ChronoScript.cs"
 "Assets/Script/Coinspin.cs"
 "Assets/Script/Collectible.cs"
+"Assets/Script/GameManager.cs"
 "Assets/Script/playerMovement.cs"
 "Assets/Script/SpawnZone.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
