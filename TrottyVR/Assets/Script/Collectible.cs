@@ -1,11 +1,9 @@
 using UnityEngine;
-using System.Collections;
 
 public class Collectible : MonoBehaviour
 {
     public SpawnZone spawnZone;
     private bool isPlayerNearby = false;
-    private Collider playerCollider;
 
     void Update()
     {
@@ -21,7 +19,6 @@ public class Collectible : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerNearby = true;
-            playerCollider = other;
         }
     }
 
@@ -30,7 +27,6 @@ public class Collectible : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerNearby = false;
-            playerCollider = null;
         }
     }
 

@@ -507,14 +507,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425759374}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6394277, y: -6.524221, z: -8.680847}
+  m_LocalRotation: {x: 0.21491718, y: -0, z: -0, w: 0.9766323}
+  m_LocalPosition: {x: 2.9594276, y: -2.1607132, z: 4.5562916}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1526096952}
+  m_LocalEulerAnglesHint: {x: 24.821, y: 0, z: 0}
 --- !u!1 &484563051
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,9 +526,8 @@ GameObject:
   - component: {fileID: 484563052}
   - component: {fileID: 484563055}
   - component: {fileID: 484563054}
-  - component: {fileID: 484563053}
   m_Layer: 5
-  m_Name: Chrono
+  m_Name: TimerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -553,20 +552,6 @@ RectTransform:
   m_AnchoredPosition: {x: -236.5, y: -169.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &484563053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484563051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d50769f1d28d96b48aa07e9a640290a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chronoText: {fileID: 484563054}
-  chrono: 0
 --- !u!114 &484563054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,7 +678,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f34a8b13a250b644ac59353da5045c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoinCountText: {fileID: 1150346101}
+  coinCountText: {fileID: 1150346101}
+  timerText: {fileID: 484563054}
 --- !u!4 &756744442
 Transform:
   m_ObjectHideFlags: 0
@@ -1142,7 +1128,8 @@ Transform:
   m_LocalPosition: {x: -0.31999993, y: -6.83, z: -10.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 425759375}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1526096953
@@ -1359,6 +1346,5 @@ SceneRoots:
   - {fileID: 1345583067}
   - {fileID: 1615743903}
   - {fileID: 172698109}
-  - {fileID: 425759375}
   - {fileID: 1526096952}
   - {fileID: 756744442}

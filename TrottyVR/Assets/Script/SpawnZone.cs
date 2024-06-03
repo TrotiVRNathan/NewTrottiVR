@@ -5,6 +5,7 @@ public class SpawnZone : MonoBehaviour
     [SerializeField] private GameObject[] prefabs;  // Tableau de prefabs pour les pièces
     [SerializeField] private Vector3 zoneSize;
 
+    private int piecesSpawned = 0; // Nombre de pièces apparues
     private GameObject currentPiece;
 
     void Start()
@@ -20,6 +21,12 @@ public class SpawnZone : MonoBehaviour
             return;
         }
 
+        if (piecesSpawned >= 5)
+        {
+            Debug.Log("Toutes les pièces ont été apparues. Arrêt de l'apparition.");
+            return; // Arrête l'apparition si 5 pièces ont été apparues
+        }
+
         int randomIndex = Random.Range(0, prefabs.Length);  // Sélectionne un prefab aléatoire
         GameObject selectedPrefab = prefabs[randomIndex];
 
@@ -32,6 +39,8 @@ public class SpawnZone : MonoBehaviour
 
         // Assigner ce script comme zone de spawn à la pièce pour qu'elle puisse appeler la fonction PieceCollected
         currentPiece.GetComponent<Collectible>().spawnZone = this;
+
+        piecesSpawned++; // Incrémente le nombre de pièces apparues
     }
 
     public void PieceCollected()
@@ -50,4 +59,3 @@ public class SpawnZone : MonoBehaviour
         Gizmos.DrawWireCube(transform.position, zoneSize);
     }
 }
-
