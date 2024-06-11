@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
     private int coinCount = 0;
-    [SerializeField] private TextMeshProUGUI coinCountText;  // Référence au texte du compteur
-    [SerializeField] private TextMeshProUGUI timerText;      // Référence au texte du chrono
-   // [SerializeField] private Image coinImage;     // Référence à l'image (optionnel)
+    [SerializeField] private TextMeshProUGUI coinCountText;  // Reference to the coin count text
+    [SerializeField] private TextMeshProUGUI timerText;      // Reference to the timer text
 
     private float timer = 0f;
     private bool isTiming = true;
@@ -44,9 +44,10 @@ public class GameManager : MonoBehaviour
     public void AddCoin()
     {
         coinCount++;
+        Debug.Log("Number of coins: " + coinCount);
         UpdateCoinCountText();
 
-        if (coinCount >= 5)
+        if (coinCount >= 10)
         {
             StopTimer();
         }
@@ -73,3 +74,5 @@ public class GameManager : MonoBehaviour
         isTiming = false;
     }
 }
+
+

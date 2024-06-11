@@ -1,9 +1,0 @@
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\bin\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.deps.json
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\bin\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\bin\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\obj\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj.AssemblyReference.cache
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\obj\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\obj\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj.CoreCompileInputs.cache
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\obj\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.sourcelink.json
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\obj\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
-C:\Users\loren\Documents\GitHub\NewTrottiVR\TrottyVR\Temp\obj\Debug\Unity.XR.Interaction.Toolkit.Samples.StarterAssets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb

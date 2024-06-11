@@ -135,6 +135,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnZone: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: 52d4c15e7c759924ca88723c5829c1c6, type: 3}
+  obstacleSound: {fileID: 0}
 --- !u!1 &9084246565364169484
 GameObject:
   m_ObjectHideFlags: 0

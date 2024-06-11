@@ -1,0 +1,217 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UnityTechnologies.com.unity.template.urpblank"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+20-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-71
+21-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-68
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-80
+22-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-77
+23
+24    <uses-feature
+24-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-18:31
+25        android:name="android.hardware.vr.headtracking"
+25-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-56
+26        android:required="true"
+26-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-32
+27        android:version="1" />
+27-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-28
+28    <uses-feature android:glEsVersion="0x00030000" />
+28-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-54
+28-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:19-51
+29    <uses-feature
+29-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.vulkan.version"
+30-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-55
+31        android:required="false" />
+31-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.microphone"
+33-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-51
+34        android:required="false" />
+34-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-28:36
+36        android:name="android.hardware.touchscreen"
+36-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-52
+37        android:required="false" />
+37-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-33
+38    <uses-feature
+38-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:5-31:36
+39        android:name="android.hardware.touchscreen.multitouch"
+39-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-63
+40        android:required="false" />
+40-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33
+41    <uses-feature
+41-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:5-34:36
+42        android:name="android.hardware.touchscreen.multitouch.distinct"
+42-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-72
+43        android:required="false" />
+43-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-33
+44
+45    <application
+45-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+46        android:allowBackup="false"
+46-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-36
+47        android:extractNativeLibs="true"
+47-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:9-41
+48        android:icon="@mipmap/app_icon"
+48-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+49        android:label="@string/app_name"
+49-->D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+50        android:networkSecurityConfig="@xml/network_sec_config" >
+50-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-64
+51        <meta-data
+51-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:37
+52            android:name="unityplayer.SkipPermissionsDialog"
+52-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-61
+53            android:value="false" />
+53-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-34
+54        <meta-data
+54-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:39
+55            android:name="com.samsung.android.vr.application.mode"
+55-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-67
+56            android:value="vr_only" />
+56-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-36
+57        <meta-data
+57-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:9-50:47
+58            android:name="com.oculus.supportedDevices"
+58-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-55
+59            android:value="quest2|questpro" />
+59-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-44
+60        <meta-data
+60-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:9-53:33
+61            android:name="unity.splash-mode"
+61-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-45
+62            android:value="0" />
+62-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-30
+63        <meta-data
+63-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:9-56:36
+64            android:name="unity.splash-enable"
+64-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-47
+65            android:value="True" />
+65-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-33
+66        <meta-data
+66-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:9-59:36
+67            android:name="unity.launch-fullscreen"
+67-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-51
+68            android:value="True" />
+68-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-33
+69        <meta-data
+69-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:9-62:36
+70            android:name="unity.render-outside-safearea"
+70-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-57
+71            android:value="True" />
+71-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-33
+72        <meta-data
+72-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:9-65:50
+73            android:name="notch.config"
+73-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:13-40
+74            android:value="portrait|landscape" />
+74-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:13-47
+75        <meta-data
+75-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:9-68:36
+76            android:name="unity.auto-report-fully-drawn"
+76-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-57
+77            android:value="true" />
+77-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:13-33
+78
+79        <activity
+79-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:9-93:20
+80            android:name="com.unity3d.player.UnityPlayerActivity"
+80-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:13-66
+81            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+81-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:13-122
+82            android:excludeFromRecents="true"
+82-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:13-46
+83            android:exported="true"
+83-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:13-36
+84            android:hardwareAccelerated="false"
+84-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:13-48
+85            android:launchMode="singleTask"
+85-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-44
+86            android:resizeableActivity="false"
+86-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-47
+87            android:screenOrientation="landscape"
+87-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:13-50
+88            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+88-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:13-77
+89            <intent-filter>
+89-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:13-85:29
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:17-77
+90-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:81:27-74
+91                <category android:name="com.oculus.intent.category.VR" />
+91-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:17-74
+91-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:27-71
+92
+93                <action android:name="android.intent.action.MAIN" />
+93-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:84:17-69
+93-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:84:25-66
+94            </intent-filter>
+95
+96            <meta-data
+96-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:13-89:40
+97                android:name="com.oculus.vr.focusaware"
+97-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:17-56
+98                android:value="true" />
+98-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:17-37
+99            <meta-data
+99-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:90:13-92:40
+100                android:name="notch_support"
+100-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:91:17-45
+101                android:value="true" />
+101-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:92:17-37
+102        </activity>
+103
+104        <meta-data
+104-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:95:9-97:36
+105            android:name="com.unity.xr.oculus.LowOverheadMode"
+105-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:96:13-63
+106            android:value="true" />
+106-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:97:13-33
+107        <meta-data
+107-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:98:9-100:37
+108            android:name="com.unity.xr.oculus.LateLatching"
+108-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:99:13-60
+109            android:value="false" />
+109-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:100:13-34
+110        <meta-data
+110-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:101:9-103:37
+111            android:name="com.unity.xr.oculus.LateLatchingDebug"
+111-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:102:13-65
+112            android:value="false" />
+112-->[:unityLibrary] D:\Nathan\E3\ESIEE\Projet\NewTrottiVR\TrottyVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:103:13-34
+113    </application>
+114
+115</manifest>

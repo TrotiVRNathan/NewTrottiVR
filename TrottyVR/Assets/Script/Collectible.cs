@@ -4,11 +4,13 @@ public class Collectible : MonoBehaviour
 {
     public SpawnZone spawnZone;
     private bool isPlayerNearby = false;
+    public AudioClip coinSound; // Reference to the coin sound effect (optional)
+    public AudioClip obstacleSound; // Reference to the obstacle sound effect
 
     void Update()
     {
-        // Vérifier l'entrée du joueur si le joueur est à proximité
-        if (isPlayerNearby && Input.GetKeyDown(KeyCode.E))
+        // Check if the player is nearby
+        if (isPlayerNearby)
         {
             CollectPiece();
         }
@@ -18,7 +20,22 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Coin collected by the player");
             isPlayerNearby = true;
+           
+            // Optionally play coin sound
+            if (coinSound != null)
+            {
+                AudioSource.PlayClipAtPoint(coinSound, transform.position);
+            }
+        }
+        else if (other.CompareTag("Obstacle"))
+        {
+            // Handle obstacle collision
+            if (obstacleSound != null)
+            {
+                AudioSource.PlayClipAtPoint(obstacleSound, transform.position);
+            }
         }
     }
 
@@ -36,6 +53,9 @@ public class Collectible : MonoBehaviour
         {
             spawnZone.PieceCollected();
         }
+        GameManager.Instance.AddCoin();
+        Debug.Log("Coin destroyed");
         Destroy(gameObject);
     }
 }
+
